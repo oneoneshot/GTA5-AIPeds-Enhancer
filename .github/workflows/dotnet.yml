@@ -5,3 +5,8 @@ name: .NET
 
 on:
   pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-dotnet-core:
+    runs-
