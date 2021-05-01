@@ -20,4 +20,6 @@ jobs:
     - name: Restore dependencies
       working-directory: ./src
       run: |
-        for proj in $(find . -name "*.csproj" -not -
+        for proj in $(find . -name "*.csproj" -not -name "*FiveM*"); do
+          dotnet restore "$proj"
+        don
