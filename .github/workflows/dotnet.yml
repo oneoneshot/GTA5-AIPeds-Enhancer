@@ -22,4 +22,7 @@ jobs:
       run: |
         for proj in $(find . -name "*.csproj" -not -name "*FiveM*"); do
           dotnet restore "$proj"
-        don
+        done
+    - name: Build
+      working-directory: ./src
+      run: |
