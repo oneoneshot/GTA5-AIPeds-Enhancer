@@ -26,4 +26,5 @@ jobs:
     - name: Build
       working-directory: ./src
       run: |
-        for proj in $(find . -name "*.csproj" -not -name "
+        for proj in $(find . -name "*.csproj" -not -name "*FiveM*"); do
+          dotnet build "$proj" --no-res
