@@ -31,4 +31,5 @@ jobs:
         done
     - name: Test
       working-directory: ./src
- 
+      run: |
+        for proj in $(find . -name "*.csproj" -not -name "*FiveM*
