@@ -33,4 +33,5 @@ jobs:
       working-directory: ./src
       run: |
         for proj in $(find . -name "*.csproj" -not -name "*FiveM*"); do
-          dotnet test "$proj" --no-build --verbosity
+          dotnet test "$proj" --no-build --verbosity normal
+        done
