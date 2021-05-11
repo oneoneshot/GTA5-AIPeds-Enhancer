@@ -89,3 +89,58 @@ Function Expand-7Zip {
     End {}
     
 }
+
+function Get-FxVersionList
+{
+    Write-Information "Getting version list..."
+    $webRequest = Invoke-WebRequest -Uri $versionListUri -UseBasicParsing
+
+    $webRequest.Links |
+        Where-Object href -Like '*.7z' |
+        ForEach-Object {
+        
+            if($_.outerHTML -match '\<a href=.*?\".*\"\>\n\s*(.*)')
+            {
+                $description = $Matches[1]
+                if($description -match '\d+')
+                {
+                    [pscustomobject]@{
+                        Description = $description
+                        Version = $Matches[0]
+                        Link = [uri]::new($versionListUri, $_.href)
+                    }
+                }
+            }
+            elseif($_.href -match '\.\/(\d+)')
+            {
+                [pscustomobject]@{
+                    Description = $Matches[1]
+                    Version = $Matches[1]
+                    Link = [uri]::new($versionListUri, $_.href)
+                }
+            }
+        }
+}
+
+function Get-FxVersion
+{
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory = $true)]
+        [ValidateScript({$_.AbsoluteUri -like '*.7z'})]
+        [Uri]
+        $Uri
+    )
+
+    $tempFileLocation = Join-Path -Path $env:TEMP -ChildPath (New-Guid).Guid
+    New-Item -Path $tempFileLocation -ItemType Directory | Out-Null
+    $filename = $Uri.Segments | Select -Last 1
+    $filePath = Join-Path -Path $tempFileLocation -ChildPath $filename
+    
+    try{
+        Invoke-WebRequest -Uri $Uri -OutFile $filePath -UseBasicParsing
+
+        if(Test-Path -Path $fxServerDir)
+        {
+            Remove-Item -Path $fxServerDir -Recurse -ErrorAction Stop
+        }
