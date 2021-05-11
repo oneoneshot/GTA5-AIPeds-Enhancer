@@ -144,3 +144,61 @@ function Get-FxVersion
         {
             Remove-Item -Path $fxServerDir -Recurse -ErrorAction Stop
         }
+
+        Expand-7Zip $filePath -DestinationPath $fxServerDir
+    }
+    finally{
+        Remove-Item -Path $tempFileLocation -Recurse
+    }
+}
+
+$desiredVersion = $config.ArtifactVersion
+$installedVersion = Get-InstalledServerVersion
+Write-Information "Installed version: $installedVersion. Desired: $desiredVersion"
+if(-not $desiredVersion)
+{
+    Write-Warning "ArtifactVersion not found in FXServer.conf.json. Installing LATEST RECOMMENDED!"
+    $desiredVersion = "LATEST RECOMMENDED*"
+}
+
+if($installedVersion -eq $desiredVersion)
+{
+    Write-Information "Server is the correct version!"
+    exit 0
+}
+
+if(Test-Path -Path $fxServerDir)
+{
+    Remove-Item $fxServerDir -Force -Recurse
+}
+
+$versions = Get-FxVersionList
+if($ListVersion.IsPresent)
+{
+    return $versions.Description
+}
+
+
+if([string]::IsNullOrEmpty($Version)) {
+    
+    $versionToDownload = $versions | Where-Object Description -like $desiredVersion
+
+    if($null -eq $versionToDownload)
+    {
+        throw "Failed to find the version $desiredVersion. Try specifying a version in FXServer.conf.json"
+    }
+
+    Write-Information "Downloading ($($versionToDownload.Version))..."
+}
+else {
+    $versionToDownload = $versions | Where-Object Version -eq $Version | Select-Object -First 1
+
+    if($null -eq $versionToDownload)
+    {
+        throw "Failed to find version. Try running -ListVersion"
+    }
+
+    Write-Information "Downloading fxserver Version $($versionToDownload.Version) ($($versionToDownload.Link.AbsoluteUri))" 
+}
+
+Get-FxVersion -Uri $versionToDownload.Link
