@@ -9,4 +9,5 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Inc
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.5" />
+  
