@@ -6,4 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <UserSecretsId>9205a176-8ec5-401f-91a2-ae10127f5bfa</UserSecretsId>
- 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Inc
