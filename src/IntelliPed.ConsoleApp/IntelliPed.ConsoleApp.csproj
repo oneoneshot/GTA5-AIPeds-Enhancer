@@ -10,4 +10,4 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.5" />
-  
+    <PackageReference Include="Microsoft.Extensions.Configuratio
