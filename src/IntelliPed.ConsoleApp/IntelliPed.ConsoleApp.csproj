@@ -11,4 +11,4 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.5" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
-    <PackageReferenc
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8
