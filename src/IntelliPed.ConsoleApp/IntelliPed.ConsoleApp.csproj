@@ -12,4 +12,4 @@
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.5" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
-    <PackageReference Include="Micros
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
