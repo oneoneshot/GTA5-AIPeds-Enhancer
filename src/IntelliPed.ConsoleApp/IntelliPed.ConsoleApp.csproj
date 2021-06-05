@@ -19,4 +19,4 @@
     <ProjectReference Include="..\IntelliPed.Core\IntelliPed.Core.csproj" />
   </ItemGroup>
 
-</Proj
+</Project>
