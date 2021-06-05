@@ -4,4 +4,6 @@ using Microsoft.Extensions.Configuration;
 IConfigurationBuilder configBuilder = new ConfigurationBuilder()
     .AddUserSecrets<Program>();
 
-IConfigura
+IConfigurationRoot config = configBuilder.Build();
+
+OpenAiOptions openAiOp
