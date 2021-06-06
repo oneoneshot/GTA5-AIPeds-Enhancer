@@ -6,4 +6,6 @@ IConfigurationBuilder configBuilder = new ConfigurationBuilder()
 
 IConfigurationRoot config = configBuilder.Build();
 
-OpenAiOptions openAiOp
+OpenAiOptions openAiOptions = new()
+{
+    ApiKey = config["OpenAi:ApiKey"] 
