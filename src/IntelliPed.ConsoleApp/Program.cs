@@ -8,4 +8,4 @@ IConfigurationRoot config = configBuilder.Build();
 
 OpenAiOptions openAiOptions = new()
 {
-    ApiKey = config["OpenAi:ApiKey"] 
+    ApiKey = config["OpenAi:ApiKey"] ?? throw new InvalidOperationException("OpenAi:ApiKey is requi
