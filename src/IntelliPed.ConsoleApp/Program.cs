@@ -15,4 +15,6 @@ OpenAiOptions openAiOptions = new()
 
 Agent agent = new(openAiOptions);
 
-await a
+await agent.Start();
+
+// Create a ManualResetEventSlim to keep 
