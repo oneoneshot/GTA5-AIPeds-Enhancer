@@ -10,4 +10,9 @@ OpenAiOptions openAiOptions = new()
 {
     ApiKey = config["OpenAi:ApiKey"] ?? throw new InvalidOperationException("OpenAi:ApiKey is required"),
     OrgId = config["OpenAi:OrgId"] ?? throw new InvalidOperationException("OpenAi:ApiKey is required"),
-    Model = "
+    Model = "gpt-3.5-turbo-0125"
+};
+
+Agent agent = new(openAiOptions);
+
+await a
