@@ -18,4 +18,5 @@ Agent agent = new(openAiOptions);
 await agent.Start();
 
 // Create a ManualResetEventSlim to keep the application running
-ManualResetEventSlim
+ManualResetEventSlim waitHandle = new(false);
+waitHandle.Wait();
