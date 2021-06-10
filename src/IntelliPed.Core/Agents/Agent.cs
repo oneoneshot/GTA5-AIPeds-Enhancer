@@ -4,4 +4,7 @@ using IntelliPed.Messages.Signals;
 using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-usi
+using Microsoft.SemanticKernel;
+
+namespace IntelliPed.Core.Agents;
+
