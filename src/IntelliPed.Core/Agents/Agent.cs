@@ -8,3 +8,6 @@ using Microsoft.SemanticKernel;
 
 namespace IntelliPed.Core.Agents;
 
+public class Agent
+{
+    public Kernel Kernel {
