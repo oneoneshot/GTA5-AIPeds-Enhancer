@@ -10,4 +10,5 @@ namespace IntelliPed.Core.Agents;
 
 public class Agent
 {
-    public Kernel Kernel {
+    public Kernel Kernel { get; }
+    public HubConnection HubConnection { get
