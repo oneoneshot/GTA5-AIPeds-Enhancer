@@ -18,4 +18,5 @@ public class Agent
     {
         _signalProcessor = new(this);
 
-        HubC
+        HubConnection = new HubConnectionBuilder()
+            .WithUrl(
