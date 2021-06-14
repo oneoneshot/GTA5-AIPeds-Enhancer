@@ -14,4 +14,8 @@ public class Agent
     public HubConnection HubConnection { get; }
     private readonly SignalProcessor _signalProcessor;
 
-    public Agent(OpenAiOptions openAiOptions
+    public Agent(OpenAiOptions openAiOptions)
+    {
+        _signalProcessor = new(this);
+
+        HubC
