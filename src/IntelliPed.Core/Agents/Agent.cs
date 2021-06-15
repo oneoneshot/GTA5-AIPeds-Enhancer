@@ -19,4 +19,7 @@ public class Agent
         _signalProcessor = new(this);
 
         HubConnection = new HubConnectionBuilder()
-            .WithUrl(
+            .WithUrl("http://localhost:5000/agent-hub")
+            .Build();
+
+        I
