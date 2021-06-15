@@ -22,4 +22,6 @@ public class Agent
             .WithUrl("http://localhost:5000/agent-hub")
             .Build();
 
-        I
+        IKernelBuilder kernelBuilder = Kernel.CreateBuilder();
+
+        
