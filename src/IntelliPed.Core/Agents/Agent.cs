@@ -26,4 +26,5 @@ public class Agent
 
         kernelBuilder.Services.AddSingleton(this);
         kernelBuilder.Services.AddLogging(_ => _
-            .S
+            .SetMinimumLevel(LogLevel.Trace)
+            .AddD
