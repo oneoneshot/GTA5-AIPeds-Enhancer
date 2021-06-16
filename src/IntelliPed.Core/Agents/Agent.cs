@@ -25,4 +25,5 @@ public class Agent
         IKernelBuilder kernelBuilder = Kernel.CreateBuilder();
 
         kernelBuilder.Services.AddSingleton(this);
-        kerne
+        kernelBuilder.Services.AddLogging(_ => _
+            .S
