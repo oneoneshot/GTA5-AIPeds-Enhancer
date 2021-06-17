@@ -29,4 +29,4 @@ public class Agent
             .SetMinimumLevel(LogLevel.Trace)
             .AddDebug()
             .AddConsole());
-        kernelBuilder.AddOpenA
+        kernelBuilder.AddOpenAIChatCompletion(openAiOptions.Model, openAiOptions.ApiK
