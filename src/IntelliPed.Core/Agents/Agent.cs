@@ -32,4 +32,6 @@ public class Agent
         kernelBuilder.AddOpenAIChatCompletion(openAiOptions.Model, openAiOptions.ApiKey, openAiOptions.OrgId);
         kernelBuilder.Plugins
             .AddFromType<NavigationPlugin>()
-            .Ad
+            .AddFromType<SpeechPlugin>();
+
+        Kernel = kernel
