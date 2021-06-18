@@ -37,4 +37,8 @@ public class Agent
         Kernel = kernelBuilder.Build();
     }
 
-    public async Task Star
+    public async Task Start()
+    {
+        await HubConnection.StartAsync();
+
+        a
