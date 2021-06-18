@@ -34,4 +34,7 @@ public class Agent
             .AddFromType<NavigationPlugin>()
             .AddFromType<SpeechPlugin>();
 
-        Kernel = kernel
+        Kernel = kernelBuilder.Build();
+    }
+
+    public async Task Star
