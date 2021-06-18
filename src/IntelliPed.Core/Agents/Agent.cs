@@ -30,4 +30,6 @@ public class Agent
             .AddDebug()
             .AddConsole());
         kernelBuilder.AddOpenAIChatCompletion(openAiOptions.Model, openAiOptions.ApiKey, openAiOptions.OrgId);
-        kernelBuilder.P
+        kernelBuilder.Plugins
+            .AddFromType<NavigationPlugin>()
+            .Ad
