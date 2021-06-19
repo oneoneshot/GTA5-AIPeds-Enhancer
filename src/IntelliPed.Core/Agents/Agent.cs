@@ -44,4 +44,4 @@ public class Agent
         await HubConnection.InvokeAsync("CreatePuppet");
 
         HubConnection.On<DamageSignal>("DamageReceived", _signalProcessor.Handle);
-   
+        HubConnection.On<SpeechSignal>("SpeechHeard", _signalPr
