@@ -41,4 +41,6 @@ public class Agent
     {
         await HubConnection.StartAsync();
 
-        a
+        await HubConnection.InvokeAsync("CreatePuppet");
+
+        HubConnection.On<DamageSigna
