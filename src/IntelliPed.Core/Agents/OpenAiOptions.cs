@@ -2,4 +2,7 @@
 
 namespace IntelliPed.Core.Agents;
 
-public rec
+public record OpenAiOptions
+{
+    [Required]
+    public string ApiKey
