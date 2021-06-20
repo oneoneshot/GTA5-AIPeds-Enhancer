@@ -47,3 +47,5 @@ public class Agent
         HubConnection.On<SpeechSignal>("SpeechHeard", _signalProcessor.Handle);
 
         _signalProcessor.Start();
+    }
+}
