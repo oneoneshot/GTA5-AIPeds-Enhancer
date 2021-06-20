@@ -1,1 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace IntelliPed.Core.Agents;
+
+public rec
