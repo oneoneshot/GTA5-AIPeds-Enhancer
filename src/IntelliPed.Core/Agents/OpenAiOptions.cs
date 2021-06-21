@@ -8,4 +8,7 @@ public record OpenAiOptions
     public string ApiKey { get; init; } = "";
 
     [Required]
-    public string OrgId { 
+    public string OrgId { get; init; } = "";
+
+    [Required]
+    public string Model {
