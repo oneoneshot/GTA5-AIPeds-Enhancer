@@ -11,4 +11,5 @@ public record OpenAiOptions
     public string OrgId { get; init; } = "";
 
     [Required]
-    public string Model {
+    public string Model { get; init; } = "";
+}
