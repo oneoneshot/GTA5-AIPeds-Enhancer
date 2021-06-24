@@ -9,4 +9,6 @@ namespace IntelliPed.Core.Plugins;
 public class SpeechPlugin
 {
     [KernelFunction]
-    [Description("Speaks out loud in the world so that other peds 
+    [Description("Speaks out loud in the world so that other peds can hear you.")]
+    public async Task<string> Speak(
+       
