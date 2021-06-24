@@ -9,4 +9,4 @@ namespace IntelliPed.Core.Plugins;
 public class SpeechPlugin
 {
     [KernelFunction]
-    
+    [Description("Speaks out loud in the world so that other peds 
