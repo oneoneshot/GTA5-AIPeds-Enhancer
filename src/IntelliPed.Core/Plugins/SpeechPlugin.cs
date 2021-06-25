@@ -12,4 +12,6 @@ public class SpeechPlugin
     [Description("Speaks out loud in the world so that other peds can hear you.")]
     public async Task<string> Speak(
         Kernel kernel,
-        [Description("What to speak.")]
+        [Description("What to speak.")] string message)
+    {
+        Agent agent = kernel.Ge
