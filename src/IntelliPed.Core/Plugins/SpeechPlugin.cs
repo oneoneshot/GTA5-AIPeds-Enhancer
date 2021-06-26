@@ -18,3 +18,7 @@ public class SpeechPlugin
 
         await agent.HubConnection.InvokeAsync("Speak", new SpeakRequest
         {
+            Message = message,
+        });
+
+        Consol
