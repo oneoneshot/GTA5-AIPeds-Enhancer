@@ -14,4 +14,6 @@ public class SpeechPlugin
         Kernel kernel,
         [Description("What to speak.")] string message)
     {
-        Agent agent = kernel.Ge
+        Agent agent = kernel.GetRequiredService<Agent>();
+
+        await agent.HubConn
