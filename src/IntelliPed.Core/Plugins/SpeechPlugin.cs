@@ -21,4 +21,5 @@ public class SpeechPlugin
             Message = message,
         });
 
-        Consol
+        Console.WriteLine("Successfully spoke");
+        return "Successfu
