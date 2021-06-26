@@ -16,4 +16,5 @@ public class SpeechPlugin
     {
         Agent agent = kernel.GetRequiredService<Agent>();
 
-        await agent.HubConn
+        await agent.HubConnection.InvokeAsync("Speak", new SpeakRequest
+        {
