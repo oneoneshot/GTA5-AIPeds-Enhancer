@@ -22,4 +22,6 @@ public class SpeechPlugin
         });
 
         Console.WriteLine("Successfully spoke");
-        return "Successfu
+        return "Successfully spoke.";
+    }
+}
