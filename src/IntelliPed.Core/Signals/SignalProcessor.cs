@@ -5,4 +5,8 @@ using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 
-namespace IntelliPed
+namespace IntelliPed.Core.Signals;
+
+public class SignalProcessor
+{
+    p
