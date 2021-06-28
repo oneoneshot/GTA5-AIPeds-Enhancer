@@ -9,4 +9,5 @@ namespace IntelliPed.Core.Signals;
 
 public class SignalProcessor
 {
-    p
+    public bool IsProcessing { get; private set; }
+    pr
