@@ -10,4 +10,5 @@ namespace IntelliPed.Core.Signals;
 public class SignalProcessor
 {
     public bool IsProcessing { get; private set; }
-    pr
+    private readonly Agent _agent;
+    private readonly Co
