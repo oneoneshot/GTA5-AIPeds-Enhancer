@@ -12,4 +12,8 @@ public class SignalProcessor
     public bool IsProcessing { get; private set; }
     private readonly Agent _agent;
     private readonly ConcurrentQueue<Signal> _signalQueue = [];
-    private readonly CancellationTokenSource _cancellationTokenSource =
+    private readonly CancellationTokenSource _cancellationTokenSource = new();
+
+    public SignalProcessor(Agent agent)
+    {
+      
