@@ -11,4 +11,5 @@ public class SignalProcessor
 {
     public bool IsProcessing { get; private set; }
     private readonly Agent _agent;
-    private readonly Co
+    private readonly ConcurrentQueue<Signal> _signalQueue = [];
+    private
