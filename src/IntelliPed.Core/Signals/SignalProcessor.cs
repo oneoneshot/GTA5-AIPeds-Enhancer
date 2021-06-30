@@ -16,4 +16,9 @@ public class SignalProcessor
 
     public SignalProcessor(Agent agent)
     {
-      
+        _agent = agent;
+    }
+
+    public void Start()
+    {
+        if (IsPro
