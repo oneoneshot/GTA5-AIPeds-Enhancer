@@ -21,4 +21,5 @@ public class SignalProcessor
 
     public void Start()
     {
-        if (IsProcessing) throw new InvalidOperationException("Signal proces
+        if (IsProcessing) throw new InvalidOperationException("Signal processor is already running.");
+        IsProcessing = t
