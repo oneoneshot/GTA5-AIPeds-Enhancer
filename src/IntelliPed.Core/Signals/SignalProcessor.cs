@@ -21,4 +21,4 @@ public class SignalProcessor
 
     public void Start()
     {
-        if (IsPro
+        if (IsProcessing) throw new InvalidOperationException("Signal proces
