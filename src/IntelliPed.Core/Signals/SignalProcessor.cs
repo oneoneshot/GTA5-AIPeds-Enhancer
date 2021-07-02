@@ -28,4 +28,5 @@ public class SignalProcessor
 
     public void Stop()
     {
-        if (!IsProcessing) throw new InvalidOperati
+        if (!IsProcessing) throw new InvalidOperationException("Signal processor is not running.");
+        IsProc
