@@ -28,3 +28,4 @@ public class SignalProcessor
 
     public void Stop()
     {
+        if (!IsProcessing) throw new InvalidOperati
