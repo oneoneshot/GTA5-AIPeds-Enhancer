@@ -22,4 +22,5 @@ public class SignalProcessor
     public void Start()
     {
         if (IsProcessing) throw new InvalidOperationException("Signal processor is already running.");
-        IsProcessing = t
+        IsProcessing = true;
+        Task.Run(() => ProcessSignals(_cancellatio
