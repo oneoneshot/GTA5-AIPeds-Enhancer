@@ -35,4 +35,7 @@ public class SignalProcessor
 
     public void Handle(Signal signal)
     {
-        _signalQueue.E
+        _signalQueue.Enqueue(signal);
+    }
+
+    private async Task ProcessSig
