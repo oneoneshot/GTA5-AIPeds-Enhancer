@@ -31,4 +31,8 @@ public class SignalProcessor
         if (!IsProcessing) throw new InvalidOperationException("Signal processor is not running.");
         IsProcessing = false;
         _cancellationTokenSource.Cancel();
-   
+    }
+
+    public void Handle(Signal signal)
+    {
+        _signalQueue.E
