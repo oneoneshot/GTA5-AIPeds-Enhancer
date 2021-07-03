@@ -38,4 +38,6 @@ public class SignalProcessor
         _signalQueue.Enqueue(signal);
     }
 
-    private async Task ProcessSig
+    private async Task ProcessSignals(CancellationToken cancellationToken)
+    {
+        while (!cancellationToken.
