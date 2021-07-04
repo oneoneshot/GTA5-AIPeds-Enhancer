@@ -42,4 +42,6 @@ public class SignalProcessor
     {
         while (!cancellationToken.IsCancellationRequested)
         {
-            if (!_si
+            if (!_signalQueue.TryDequeue(out Signal? signal))
+            {
+          
