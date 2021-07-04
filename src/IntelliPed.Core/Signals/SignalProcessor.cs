@@ -40,4 +40,6 @@ public class SignalProcessor
 
     private async Task ProcessSignals(CancellationToken cancellationToken)
     {
-        while (!cancellationToken.
+        while (!cancellationToken.IsCancellationRequested)
+        {
+            if (!_si
