@@ -44,4 +44,5 @@ public class SignalProcessor
         {
             if (!_signalQueue.TryDequeue(out Signal? signal))
             {
-          
+                await Task.Delay(100, cancellationToken);
+                co
