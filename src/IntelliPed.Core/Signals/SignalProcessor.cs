@@ -50,3 +50,6 @@ public class SignalProcessor
 
             // Process signal
             IChatCompletionService chatService = _agent.Kernel.GetRequiredService<IChatCompletionService>();
+
+            ChatHistory chat = new(
+                "
