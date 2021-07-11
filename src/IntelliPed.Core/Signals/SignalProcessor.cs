@@ -49,4 +49,4 @@ public class SignalProcessor
             }
 
             // Process signal
-            IChatCompletionService chatService = _agen
+            IChatCompletionService chatService = _agent.Kernel.GetRequiredService<IChatCompletionService>();
