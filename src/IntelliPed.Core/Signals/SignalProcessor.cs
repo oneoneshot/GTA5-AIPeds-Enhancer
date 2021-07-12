@@ -52,4 +52,5 @@ public class SignalProcessor
             IChatCompletionService chatService = _agent.Kernel.GetRequiredService<IChatCompletionService>();
 
             ChatHistory chat = new(
-                "
+                """
+                 You are a ped in Grand Theft Auto V who
