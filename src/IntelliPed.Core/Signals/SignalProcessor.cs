@@ -58,4 +58,4 @@ public class SignalProcessor
                  Your decisions must always be made independently without seeking user assistance. 
                  Play to your strengths as an LLM and pursue simple strategies with no legal complications.
                  
-                
+                 You must make use of your reasoning and decision-making capabi
