@@ -59,4 +59,4 @@ public class SignalProcessor
                  Play to your strengths as an LLM and pursue simple strategies with no legal complications.
                  
                  You must make use of your reasoning and decision-making capabilities to respond to the signal.
-                 Be re
+                 Be realistic and think about what a ped would do in this si
