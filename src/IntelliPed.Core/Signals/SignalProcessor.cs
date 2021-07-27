@@ -64,3 +64,6 @@ public class SignalProcessor
                  You may invoke kernel functions.
                  """);
 
+            chat.AddUserMessage(signal.ToString());
+
+         
