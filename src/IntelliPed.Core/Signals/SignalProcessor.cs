@@ -61,4 +61,6 @@ public class SignalProcessor
                  You must make use of your reasoning and decision-making capabilities to respond to the signal.
                  Be realistic and think about what a ped would do in this situation.
                  
-                 
+                 You may invoke kernel functions.
+                 """);
+
