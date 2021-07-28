@@ -66,4 +66,4 @@ public class SignalProcessor
 
             chat.AddUserMessage(signal.ToString());
 
-            ChatMessageContent result = await chatService.Ge
+            ChatMessageContent result = await chatService.GetChatMessageContentAsync(chat, new OpenAIPromptExecutionS
