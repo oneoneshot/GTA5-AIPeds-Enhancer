@@ -69,4 +69,4 @@ public class SignalProcessor
             ChatMessageContent result = await chatService.GetChatMessageContentAsync(chat, new OpenAIPromptExecutionSettings
             {
                 ToolCallBehavior = ToolCallBehavior.AutoInvokeKernelFunctions
-        
+            }, kernel: _agent.Kernel, cancellationToken: cancella
