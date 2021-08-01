@@ -71,4 +71,7 @@ public class SignalProcessor
                 ToolCallBehavior = ToolCallBehavior.AutoInvokeKernelFunctions
             }, kernel: _agent.Kernel, cancellationToken: cancellationToken);
 
-            Console.WriteLine($"Result: {r
+            Console.WriteLine($"Result: {result}");
+        }
+    }
+}
