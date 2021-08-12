@@ -6,4 +6,5 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A8318136-1CB5-4B6E-99F3-25420ADE1331}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFol
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IntelliPed.FiveM.Client</RootNames
