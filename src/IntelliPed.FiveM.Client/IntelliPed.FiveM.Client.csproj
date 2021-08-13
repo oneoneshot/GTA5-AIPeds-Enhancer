@@ -7,4 +7,5 @@
     <ProjectGuid>{A8318136-1CB5-4B6E-99F3-25420ADE1331}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IntelliPed.FiveM.Client</RootNames
+    <RootNamespace>IntelliPed.FiveM.Client</RootNamespace>
+    <AssemblyName>IntelliPed.FiveM.Client.net<
