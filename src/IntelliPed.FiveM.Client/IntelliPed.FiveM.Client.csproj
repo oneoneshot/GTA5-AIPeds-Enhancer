@@ -9,4 +9,6 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IntelliPed.FiveM.Client</RootNamespace>
     <AssemblyName>IntelliPed.FiveM.Client.net</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</Tar
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Determinist
