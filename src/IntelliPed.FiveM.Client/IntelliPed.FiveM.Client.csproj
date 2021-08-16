@@ -12,4 +12,5 @@
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <LangVersion>late
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullabl
