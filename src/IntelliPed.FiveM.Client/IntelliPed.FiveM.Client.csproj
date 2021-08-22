@@ -16,4 +16,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</De
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optim
