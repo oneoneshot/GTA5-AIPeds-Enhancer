@@ -18,4 +18,5 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optim
+    <Optimize>false</Optimize>
+    <OutputPath>bin\De
