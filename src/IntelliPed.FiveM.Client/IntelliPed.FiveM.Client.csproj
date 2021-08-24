@@ -19,4 +19,5 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\De
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRA
