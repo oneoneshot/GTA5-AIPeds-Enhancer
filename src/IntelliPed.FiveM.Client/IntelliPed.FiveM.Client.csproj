@@ -24,3 +24,5 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <OutputPath>..\..\fivem\cfx-server-data\resources\intelliped\client</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(C
