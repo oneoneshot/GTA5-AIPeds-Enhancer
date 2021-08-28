@@ -26,4 +26,6 @@
     <OutputPath>..\..\fivem\cfx-server-data\resources\intelliped\client</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPa
