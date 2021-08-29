@@ -28,4 +28,5 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPa
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</Def
