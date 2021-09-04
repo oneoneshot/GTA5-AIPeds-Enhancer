@@ -35,4 +35,4 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CitizenFX.Core.Client, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\pac
+      <HintPath>..\packages\CitizenFX.Core.Client.1.0.8202\lib\net45\CitizenFX.Core.Client.dll</HintPa
