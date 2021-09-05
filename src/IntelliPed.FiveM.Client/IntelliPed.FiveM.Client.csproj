@@ -38,3 +38,4 @@
       <HintPath>..\packages\CitizenFX.Core.Client.1.0.8202\lib\net45\CitizenFX.Core.Client.dll</HintPath>
     </Reference>
     <Reference Include="FxMediator.Client.net">
+      <HintPath>..\..\..\FxMediator\src\FxMediator.Client\bi
