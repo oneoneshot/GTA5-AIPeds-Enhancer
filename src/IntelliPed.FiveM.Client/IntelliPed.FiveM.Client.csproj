@@ -40,3 +40,5 @@
     <Reference Include="FxMediator.Client.net">
       <HintPath>..\..\..\FxMediator\src\FxMediator.Client\bin\Debug\FxMediator.Client.net.dll</HintPath>
     </Reference>
+    <Reference Include="FxMediator.Shared">
+      <HintP
