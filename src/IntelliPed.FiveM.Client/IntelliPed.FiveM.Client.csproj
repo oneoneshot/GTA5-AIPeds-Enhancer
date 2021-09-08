@@ -41,4 +41,4 @@
       <HintPath>..\..\..\FxMediator\src\FxMediator.Client\bin\Debug\FxMediator.Client.net.dll</HintPath>
     </Reference>
     <Reference Include="FxMediator.Shared">
-      <HintP
+      <HintPath>..\..\..\FxMediator\src\FxMediator.Shared\bin\Debug\FxMediato
