@@ -45,4 +45,5 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Re
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Sy
