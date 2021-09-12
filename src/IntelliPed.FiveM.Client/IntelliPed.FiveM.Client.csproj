@@ -47,4 +47,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Micro
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+ 
