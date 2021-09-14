@@ -54,4 +54,5 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MarkerClass.cs" />
-    <Compile Include="
+    <Compile Include="Models\Color.cs" />
+    <Compile Include="Models
