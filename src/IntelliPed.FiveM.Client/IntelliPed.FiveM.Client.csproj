@@ -55,4 +55,5 @@
   <ItemGroup>
     <Compile Include="MarkerClass.cs" />
     <Compile Include="Models\Color.cs" />
-    <Compile Include="Models
+    <Compile Include="Models\PedTextDraw.cs" />
+    <Compile Include="Models\TextDraw.
