@@ -56,4 +56,6 @@
     <Compile Include="MarkerClass.cs" />
     <Compile Include="Models\Color.cs" />
     <Compile Include="Models\PedTextDraw.cs" />
-    <Compile Include="Models\TextDraw.
+    <Compile Include="Models\TextDraw.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Incl
