@@ -58,4 +58,5 @@
     <Compile Include="Models\PedTextDraw.cs" />
     <Compile Include="Models\TextDraw.cs" />
     <Compile Include="Program.cs" />
-    <Compile Incl
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include
