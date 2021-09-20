@@ -62,4 +62,5 @@
     <Compile Include="Rpc\NavigationRpc.cs" />
     <Compile Include="Rpc\PuppetRpc.cs" />
     <Compile Include="Scripts\DamageScript.cs" />
-    <Compile 
+    <Compile Include="Scripts\SpeechScript.cs" />
+    <Compile Include=
