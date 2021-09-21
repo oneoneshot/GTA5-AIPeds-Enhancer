@@ -63,4 +63,7 @@
     <Compile Include="Rpc\PuppetRpc.cs" />
     <Compile Include="Scripts\DamageScript.cs" />
     <Compile Include="Scripts\SpeechScript.cs" />
-    <Compile Include=
+    <Compile Include="Speech.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Inc
