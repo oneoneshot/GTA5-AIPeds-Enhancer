@@ -66,4 +66,7 @@
     <Compile Include="Speech.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Inc
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Proje
