@@ -69,4 +69,5 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\IntelliPed.FiveM.Shared\IntelliPed.Fi
+    <ProjectReference Include="..\IntelliPed.FiveM.Shared\IntelliPed.FiveM.Shared.csproj">
+      <Project>{25E9A728-BA59-
