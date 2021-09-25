@@ -75,4 +75,4 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
-  <Imp
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.
