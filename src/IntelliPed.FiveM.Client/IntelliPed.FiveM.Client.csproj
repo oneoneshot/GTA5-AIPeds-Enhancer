@@ -71,4 +71,8 @@
   <ItemGroup>
     <ProjectReference Include="..\IntelliPed.FiveM.Shared\IntelliPed.FiveM.Shared.csproj">
       <Project>{25E9A728-BA59-4DC7-AD4A-2D4BA154EE22}</Project>
-      <Name>IntelliPed.FiveM.Sh
+      <Name>IntelliPed.FiveM.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Imp
