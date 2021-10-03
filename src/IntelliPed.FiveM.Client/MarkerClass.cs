@@ -6,4 +6,5 @@
  * several types and attributes that enable newer C# language features to be used in projects
  * targeting older versions of the .NET framework.
  *
- * These conditional definitions ensure that
+ * These conditional definitions ensure that codebases can leverage modern C# features while
+ * maintaining backward
