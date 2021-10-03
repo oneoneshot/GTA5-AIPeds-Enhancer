@@ -7,4 +7,7 @@
  * targeting older versions of the .NET framework.
  *
  * These conditional definitions ensure that codebases can leverage modern C# features while
- * maintaining backward
+ * maintaining backward compatibility with older .NET runtimes.
+ */
+
+namespace S
