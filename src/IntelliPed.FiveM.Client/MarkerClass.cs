@@ -10,4 +10,8 @@
  * maintaining backward compatibility with older .NET runtimes.
  */
 
-namespace S
+namespace System.Runtime.CompilerServices
+{
+#if !NET5_0_OR_GREATER
+
+    [EditorBrowsable(E
