@@ -15,4 +15,8 @@ namespace System.Runtime.CompilerServices
 #if !NET5_0_OR_GREATER
 
     [EditorBrowsable(EditorBrowsableState.Never)]
-    internal static class IsExterna
+    internal static class IsExternalInit { }
+
+#endif // !NET5_0_OR_GREATER
+
+#if !NET7_0_OR
