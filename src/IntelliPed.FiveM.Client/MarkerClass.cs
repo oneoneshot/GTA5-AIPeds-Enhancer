@@ -19,4 +19,6 @@ namespace System.Runtime.CompilerServices
 
 #endif // !NET5_0_OR_GREATER
 
-#if !NET7_0_OR
+#if !NET7_0_OR_GREATER
+
+    [AttributeUsage(AttributeTargets.Class | 
