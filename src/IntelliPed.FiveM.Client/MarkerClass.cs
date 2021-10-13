@@ -21,4 +21,4 @@ namespace System.Runtime.CompilerServices
 
 #if !NET7_0_OR_GREATER
 
-    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Field | Attrib
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false, Inherite
