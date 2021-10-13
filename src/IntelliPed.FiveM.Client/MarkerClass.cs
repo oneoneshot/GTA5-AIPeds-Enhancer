@@ -21,4 +21,4 @@ namespace System.Runtime.CompilerServices
 
 #if !NET7_0_OR_GREATER
 
-    [AttributeUsage(AttributeTargets.Class | 
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Field | Attrib
