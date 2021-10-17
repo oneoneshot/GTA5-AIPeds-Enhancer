@@ -27,4 +27,5 @@ namespace System.Runtime.CompilerServices
     [AttributeUsage(AttributeTargets.All, AllowMultiple = true, Inherited = false)]
     internal sealed class CompilerFeatureRequiredAttribute : Attribute
     {
-        public CompilerFe
+        public CompilerFeatureRequiredAttribute(string featureName)
+        
