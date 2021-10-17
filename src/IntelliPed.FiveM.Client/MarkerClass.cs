@@ -25,4 +25,6 @@ namespace System.Runtime.CompilerServices
     internal sealed class RequiredMemberAttribute : Attribute { }
 
     [AttributeUsage(AttributeTargets.All, AllowMultiple = true, Inherited = false)]
-    internal sealed class C
+    internal sealed class CompilerFeatureRequiredAttribute : Attribute
+    {
+        public CompilerFe
