@@ -32,4 +32,5 @@ namespace System.Runtime.CompilerServices
             FeatureName = featureName;
         }
 
-        pub
+        public string FeatureName { get; }
+        public bool IsOptional { g
