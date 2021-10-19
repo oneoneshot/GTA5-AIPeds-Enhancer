@@ -28,4 +28,8 @@ namespace System.Runtime.CompilerServices
     internal sealed class CompilerFeatureRequiredAttribute : Attribute
     {
         public CompilerFeatureRequiredAttribute(string featureName)
-        
+        {
+            FeatureName = featureName;
+        }
+
+        pub
