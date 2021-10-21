@@ -35,4 +35,5 @@ namespace System.Runtime.CompilerServices
         public string FeatureName { get; }
         public bool IsOptional { get; init; }
 
-        public const string RefStructs = nameof(R
+        public const string RefStructs = nameof(RefStructs);
+        public const string RequiredMembers = nameo
