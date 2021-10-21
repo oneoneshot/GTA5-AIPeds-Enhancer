@@ -36,4 +36,10 @@ namespace System.Runtime.CompilerServices
         public bool IsOptional { get; init; }
 
         public const string RefStructs = nameof(RefStructs);
-        public const string RequiredMembers = nameo
+        public const string RequiredMembers = nameof(RequiredMembers);
+    }
+
+#endif // !NET7_0_OR_GREATER
+}
+
+names
