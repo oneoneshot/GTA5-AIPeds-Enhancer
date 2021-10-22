@@ -42,4 +42,6 @@ namespace System.Runtime.CompilerServices
 #endif // !NET7_0_OR_GREATER
 }
 
-names
+namespace System.Diagnostics.CodeAnalysis
+{
+#if !NET7_0_OR_GREATER
