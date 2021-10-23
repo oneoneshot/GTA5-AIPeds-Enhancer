@@ -45,3 +45,4 @@ namespace System.Runtime.CompilerServices
 namespace System.Diagnostics.CodeAnalysis
 {
 #if !NET7_0_OR_GREATER
+    [AttributeUsage(AttributeTargets.Constructor, AllowM
