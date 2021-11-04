@@ -6,4 +6,4 @@ public class PedTextDraw : TextDraw
 {
     private readonly Ped _ped;
 
-    public PedTextDr
+    public PedTextDraw(Ped ped, string text, Color? color = null) : base(ped.Posit
