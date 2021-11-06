@@ -8,4 +8,9 @@ public class PedTextDraw : TextDraw
 
     public PedTextDraw(Ped ped, string text, Color? color = null) : base(ped.Position, text, color)
     {
-        _ped = ped
+        _ped = ped;
+    }
+
+    public override void Draw()
+    {
+        Position =
