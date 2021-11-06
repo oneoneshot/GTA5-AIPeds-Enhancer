@@ -13,4 +13,5 @@ public class PedTextDraw : TextDraw
 
     public override void Draw()
     {
-        Position =
+        Position = _ped.Bones[Bone.SKEL_Head].Position;
+        Position.Z += 0.5f;
