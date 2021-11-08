@@ -1,0 +1,1 @@
+﻿using CitizenFX.Core.Nat

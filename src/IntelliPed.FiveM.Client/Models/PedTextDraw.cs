@@ -15,3 +15,6 @@ public class PedTextDraw : TextDraw
     {
         Position = _ped.Bones[Bone.SKEL_Head].Position;
         Position.Z += 0.5f;
+        base.Draw();
+    }
+}
