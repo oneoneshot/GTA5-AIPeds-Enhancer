@@ -7,4 +7,6 @@ public class TextDraw
 {
     protected Vector3 Position;
     protected string Text;
-    protected Color Colo
+    protected Color Color;
+
+    public TextDraw(Vector3 position, string text, Color
