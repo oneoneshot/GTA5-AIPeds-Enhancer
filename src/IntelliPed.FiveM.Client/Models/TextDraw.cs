@@ -12,4 +12,8 @@ public class TextDraw
     public TextDraw(Vector3 position, string text, Color? color = null)
     {
         Position = position;
-        Text = tex
+        Text = text;
+        Color = color ?? Color.White;
+    }
+
+    public virtual voi
