@@ -9,4 +9,7 @@ public class TextDraw
     protected string Text;
     protected Color Color;
 
-    public TextDraw(Vector3 position, string text, Color
+    public TextDraw(Vector3 position, string text, Color? color = null)
+    {
+        Position = position;
+        Text = tex
