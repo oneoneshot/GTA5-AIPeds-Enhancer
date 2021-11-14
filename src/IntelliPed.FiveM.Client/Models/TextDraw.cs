@@ -19,4 +19,7 @@ public class TextDraw
     public virtual void Draw()
     {
         float screenX = 0f;
-        float scre
+        float screenY = 0f;
+
+        bool isOnScreen = API.World3dToScreen2d(
+          
