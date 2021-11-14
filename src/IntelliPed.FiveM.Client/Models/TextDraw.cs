@@ -16,4 +16,7 @@ public class TextDraw
         Color = color ?? Color.White;
     }
 
-    public virtual voi
+    public virtual void Draw()
+    {
+        float screenX = 0f;
+        float scre
