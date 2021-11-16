@@ -22,4 +22,7 @@ public class TextDraw
         float screenY = 0f;
 
         bool isOnScreen = API.World3dToScreen2d(
-          
+            Position.X,
+            Position.Y,
+            Position.Z,
+       
