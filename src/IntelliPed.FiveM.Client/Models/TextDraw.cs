@@ -25,4 +25,7 @@ public class TextDraw
             Position.X,
             Position.Y,
             Position.Z,
-       
+            ref screenX,
+            ref screenY);
+
+        Vector3 gameplayCam
