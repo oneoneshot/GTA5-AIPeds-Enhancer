@@ -28,4 +28,6 @@ public class TextDraw
             ref screenX,
             ref screenY);
 
-        Vector3 gameplayCam
+        Vector3 gameplayCamCoords = API.GetGameplayCamCoords();
+
+        float
