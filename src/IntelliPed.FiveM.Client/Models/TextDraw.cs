@@ -30,4 +30,5 @@ public class TextDraw
 
         Vector3 gameplayCamCoords = API.GetGameplayCamCoords();
 
-        float
+        float distance = API.GetDistanceBetweenCoords(
+ 
