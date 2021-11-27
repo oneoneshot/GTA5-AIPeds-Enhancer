@@ -35,4 +35,6 @@ public class TextDraw
             gameplayCamCoords.Y,
             gameplayCamCoords.Z,
             Position.X,
-  
+            Position.Y,
+            Position.Z,
+            t
