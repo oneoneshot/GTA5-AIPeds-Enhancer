@@ -33,4 +33,6 @@ public class TextDraw
         float distance = API.GetDistanceBetweenCoords(
             gameplayCamCoords.X,
             gameplayCamCoords.Y,
-      
+            gameplayCamCoords.Z,
+            Position.X,
+  
