@@ -37,4 +37,7 @@ public class TextDraw
             Position.X,
             Position.Y,
             Position.Z,
-            t
+            true);
+
+        float scale = 1 / distance;
+        floa
