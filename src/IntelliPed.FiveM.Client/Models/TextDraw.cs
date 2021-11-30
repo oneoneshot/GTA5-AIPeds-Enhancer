@@ -40,4 +40,7 @@ public class TextDraw
             true);
 
         float scale = 1 / distance;
-        floa
+        float fov = 1 / API.GetGameplayCamFov() * 100;
+        scale *= fov;
+
+    
