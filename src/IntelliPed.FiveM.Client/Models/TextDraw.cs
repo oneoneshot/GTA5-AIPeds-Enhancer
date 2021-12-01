@@ -43,4 +43,6 @@ public class TextDraw
         float fov = 1 / API.GetGameplayCamFov() * 100;
         scale *= fov;
 
-    
+        if (isOnScreen)
+        {
+            API.SetTextScale(0f, scale);
