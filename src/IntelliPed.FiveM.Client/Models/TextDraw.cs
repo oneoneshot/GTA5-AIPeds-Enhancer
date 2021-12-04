@@ -46,3 +46,5 @@ public class TextDraw
         if (isOnScreen)
         {
             API.SetTextScale(0f, scale);
+            API.SetTextFont(0);
+            API.SetText
