@@ -48,4 +48,5 @@ public class TextDraw
             API.SetTextScale(0f, scale);
             API.SetTextFont(0);
             API.SetTextProportional(true);
-            API.SetTextColour(Color.R, Co
+            API.SetTextColour(Color.R, Color.G, Color.B, Color.A);
+            API.SetTextDropshadow(0,
