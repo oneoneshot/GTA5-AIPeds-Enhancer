@@ -54,4 +54,7 @@ public class TextDraw
             API.SetTextEntry("STRING");
             API.SetTextCentre(true);
             API.AddTextComponentString(Text);
-   
+            API.DrawText(screenX, screenY);
+        }
+    }
+}
