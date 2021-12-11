@@ -52,4 +52,6 @@ public class TextDraw
             API.SetTextDropshadow(0, 0, 0, 0, 255);
             API.SetTextOutline();
             API.SetTextEntry("STRING");
-            API.SetTextCentr
+            API.SetTextCentre(true);
+            API.AddTextComponentString(Text);
+   
