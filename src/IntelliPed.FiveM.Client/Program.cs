@@ -4,4 +4,6 @@ using CitizenFX.Core.Native;
 
 namespace IntelliPed.FiveM.Client;
 
-public class Pro
+public class Program : BaseScript
+{
+    [EventHandler("onClien
