@@ -6,4 +6,5 @@ namespace IntelliPed.FiveM.Client;
 
 public class Program : BaseScript
 {
-    [EventHandler("onClien
+    [EventHandler("onClientResourceStart")]
+    public void OnClientResourceStar
