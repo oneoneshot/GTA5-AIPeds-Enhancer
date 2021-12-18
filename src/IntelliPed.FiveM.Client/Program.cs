@@ -14,4 +14,5 @@ public class Program : BaseScript
             return;
         }
 
-        API.SetPoliceIgnorePlayer(API.Pla
+        API.SetPoliceIgnorePlayer(API.PlayerId(), true);
+        API.SetDispatchCopsForPlayer(AP
