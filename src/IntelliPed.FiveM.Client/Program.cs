@@ -11,4 +11,7 @@ public class Program : BaseScript
     {
         if (API.GetCurrentResourceName() != resourceName)
         {
-            retu
+            return;
+        }
+
+        API.SetPoliceIgnorePlayer(API.Pla
