@@ -7,4 +7,6 @@ namespace IntelliPed.FiveM.Client;
 public class Program : BaseScript
 {
     [EventHandler("onClientResourceStart")]
-    public void OnClientResourceStar
+    public void OnClientResourceStart(string resourceName)
+    {
+        if (API.GetCurrentReso
