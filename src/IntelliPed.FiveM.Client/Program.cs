@@ -9,4 +9,6 @@ public class Program : BaseScript
     [EventHandler("onClientResourceStart")]
     public void OnClientResourceStart(string resourceName)
     {
-        if (API.GetCurrentReso
+        if (API.GetCurrentResourceName() != resourceName)
+        {
+            retu
