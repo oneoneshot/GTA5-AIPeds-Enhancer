@@ -17,4 +17,4 @@ public class Program : BaseScript
         API.SetPoliceIgnorePlayer(API.PlayerId(), true);
         API.SetDispatchCopsForPlayer(API.PlayerId(), false);
         API.SetMaxWantedLevel(0);
-      
+        API.SetEntityCoords(API.PlayerPedId(), 0f, 0f, 72f, fal
