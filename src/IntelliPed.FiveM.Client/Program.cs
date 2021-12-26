@@ -19,4 +19,7 @@ public class Program : BaseScript
         API.SetMaxWantedLevel(0);
         API.SetEntityCoords(API.PlayerPedId(), 0f, 0f, 72f, false, false, false, false);
 
-        Debug.WriteLine("
+        Debug.WriteLine("Client resource started");
+    }
+
+    [EventHandler("gameEve
