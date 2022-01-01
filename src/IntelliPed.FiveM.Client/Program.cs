@@ -22,4 +22,5 @@ public class Program : BaseScript
         Debug.WriteLine("Client resource started");
     }
 
-    [EventHandler("gameEve
+    [EventHandler("gameEventTriggered")]
+    public void OnGameEventTr
