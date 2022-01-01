@@ -23,4 +23,6 @@ public class Program : BaseScript
     }
 
     [EventHandler("gameEventTriggered")]
-    public void OnGameEventTr
+    public void OnGameEventTriggered(string name, List<dynamic> data)
+    {
+    
