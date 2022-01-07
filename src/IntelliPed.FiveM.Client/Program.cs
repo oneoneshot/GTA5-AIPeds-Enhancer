@@ -25,4 +25,4 @@ public class Program : BaseScript
     [EventHandler("gameEventTriggered")]
     public void OnGameEventTriggered(string name, List<dynamic> data)
     {
-    
+        Debug.WriteLine($"Game event triggered: {name} | {string
