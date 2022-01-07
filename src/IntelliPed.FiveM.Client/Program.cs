@@ -25,4 +25,8 @@ public class Program : BaseScript
     [EventHandler("gameEventTriggered")]
     public void OnGameEventTriggered(string name, List<dynamic> data)
     {
-        Debug.WriteLine($"Game event triggered: {name} | {string
+        Debug.WriteLine($"Game event triggered: {name} | {string.Join(", ", data)}");
+    }
+
+    //[Tick]
+    //public async Task
