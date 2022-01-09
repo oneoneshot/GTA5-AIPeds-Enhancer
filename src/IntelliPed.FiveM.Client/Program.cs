@@ -32,4 +32,5 @@ public class Program : BaseScript
     //public async Task OnTick()
     //{
     //    // Disable the wanted level
-    //    API
+    //    API.SetPlayerWantedLevel(API.PlayerId(), 0, false);
+    //    API.S
