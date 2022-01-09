@@ -33,4 +33,6 @@ public class Program : BaseScript
     //{
     //    // Disable the wanted level
     //    API.SetPlayerWantedLevel(API.PlayerId(), 0, false);
-    //    API.S
+    //    API.SetPlayerWantedLevelNow(API.PlayerId(), false);
+
+    //   
