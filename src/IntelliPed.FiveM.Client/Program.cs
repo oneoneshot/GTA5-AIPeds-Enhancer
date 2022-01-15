@@ -39,4 +39,6 @@ public class Program : BaseScript
     //}
 
     [Command("gun")]
-    public void GiveGun(
+    public void GiveGun()
+    {
+        // don't ask me why I'm giving a gun 
