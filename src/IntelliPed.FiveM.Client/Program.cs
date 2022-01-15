@@ -36,4 +36,7 @@ public class Program : BaseScript
     //    API.SetPlayerWantedLevelNow(API.PlayerId(), false);
 
     //    await Delay(1000); // Wait for 1 second before checking again
-  
+    //}
+
+    [Command("gun")]
+    public void GiveGun(
