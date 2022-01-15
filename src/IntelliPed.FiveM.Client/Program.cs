@@ -35,4 +35,5 @@ public class Program : BaseScript
     //    API.SetPlayerWantedLevel(API.PlayerId(), 0, false);
     //    API.SetPlayerWantedLevelNow(API.PlayerId(), false);
 
-    //   
+    //    await Delay(1000); // Wait for 1 second before checking again
+  
