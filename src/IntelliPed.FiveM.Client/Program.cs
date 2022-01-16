@@ -41,4 +41,5 @@ public class Program : BaseScript
     [Command("gun")]
     public void GiveGun()
     {
-        // don't ask me why I'm giving a gun 
+        // don't ask me why I'm giving a gun to the player >:)
+        API.GiveWeaponToPed(API.PlayerPedId(), (uint)
