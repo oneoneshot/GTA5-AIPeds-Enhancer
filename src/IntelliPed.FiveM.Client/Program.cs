@@ -42,4 +42,6 @@ public class Program : BaseScript
     public void GiveGun()
     {
         // don't ask me why I'm giving a gun to the player >:)
-        API.GiveWeaponToPed(API.PlayerPedId(), (uint)
+        API.GiveWeaponToPed(API.PlayerPedId(), (uint) API.GetHashKey("weapon_pistol"), 999, false, true);
+    }
+}
