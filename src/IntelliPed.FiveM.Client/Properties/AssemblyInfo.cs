@@ -2,4 +2,4 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// General Informat
+// General Information about an assembly is controlled through the followin
