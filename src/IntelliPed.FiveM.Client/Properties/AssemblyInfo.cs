@@ -10,4 +10,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Scan Computers")]
 [assembly: AssemblyProduct("IntelliPed.FiveM.Client")]
-[
+[assembly: AssemblyCopyright("Copyright © Scan Computers 2
