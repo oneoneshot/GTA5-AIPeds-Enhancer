@@ -8,3 +8,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("IntelliPed.FiveM.Client")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Scan Computers")]
+[assembly
