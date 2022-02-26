@@ -9,4 +9,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Scan Computers")]
-[assembly
+[assembly: AssemblyProduct("IntelliPed.FiveM.Client")]
+[
