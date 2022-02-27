@@ -12,4 +12,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("IntelliPed.FiveM.Client")]
 [assembly: AssemblyCopyright("Copyright © Scan Computers 2024")]
 [assembly: AssemblyTrademark("")]
-[assembly: As
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false 
