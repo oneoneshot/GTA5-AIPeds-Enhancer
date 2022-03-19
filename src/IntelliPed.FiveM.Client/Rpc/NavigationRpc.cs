@@ -4,4 +4,7 @@ using FxMediator.Client;
 using IntelliPed.FiveM.Shared.Requests.Navigation;
 using System.Threading.Tasks;
 
-namespace IntelliPed.FiveM
+namespace IntelliPed.FiveM.Client.Rpc;
+
+public class NavigationRpc : BaseScript
+{
