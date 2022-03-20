@@ -8,3 +8,4 @@ namespace IntelliPed.FiveM.Client.Rpc;
 
 public class NavigationRpc : BaseScript
 {
+    private readonly ClientMediator _mediator = new();
