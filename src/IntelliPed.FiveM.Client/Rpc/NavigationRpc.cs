@@ -12,4 +12,4 @@ public class NavigationRpc : BaseScript
 
     public NavigationRpc()
     {
-        _media
+        _mediator.AddRequestHandler<MoveToPositionRpcReque
