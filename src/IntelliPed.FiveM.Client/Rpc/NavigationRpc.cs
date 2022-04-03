@@ -22,3 +22,5 @@ public class NavigationRpc : BaseScript
         await RequestControlOfEntity(request.PedNetworkId);
 
         Ped ped = new(API.NetworkGetEntityFromNetworkId(request.PedNetworkId));
+        
+        API.TaskGoToCoordAnyMeansExtraParams(pe
