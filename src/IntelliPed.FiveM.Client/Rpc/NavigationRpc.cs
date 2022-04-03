@@ -17,4 +17,6 @@ public class NavigationRpc : BaseScript
 
     private static async Task OnMoveToPosition(MoveToPositionRpcRequest request)
     {
-       
+        Debug.WriteLine("Moving to position...");
+
+        await Request
