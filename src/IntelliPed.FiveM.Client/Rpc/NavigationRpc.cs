@@ -15,4 +15,6 @@ public class NavigationRpc : BaseScript
         _mediator.AddRequestHandler<MoveToPositionRpcRequest>(OnMoveToPosition);
     }
 
-    private static async Ta
+    private static async Task OnMoveToPosition(MoveToPositionRpcRequest request)
+    {
+       
