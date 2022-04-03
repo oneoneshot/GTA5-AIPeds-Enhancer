@@ -21,4 +21,4 @@ public class NavigationRpc : BaseScript
 
         await RequestControlOfEntity(request.PedNetworkId);
 
-        Ped ped
+        Ped ped = new(API.NetworkGetEntityFromNetworkId(request.PedNetworkId));
