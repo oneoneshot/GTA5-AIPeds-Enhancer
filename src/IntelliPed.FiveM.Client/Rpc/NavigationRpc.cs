@@ -19,4 +19,6 @@ public class NavigationRpc : BaseScript
     {
         Debug.WriteLine("Moving to position...");
 
-        await Request
+        await RequestControlOfEntity(request.PedNetworkId);
+
+        Ped ped
