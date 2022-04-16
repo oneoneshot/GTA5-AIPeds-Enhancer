@@ -28,4 +28,6 @@ public class NavigationRpc : BaseScript
 
     private static async Task RequestControlOfEntity(int networkId)
     {
-        int controlCou
+        int controlCount = 0;
+
+        while (!API.NetworkHasControlOfNetwork
