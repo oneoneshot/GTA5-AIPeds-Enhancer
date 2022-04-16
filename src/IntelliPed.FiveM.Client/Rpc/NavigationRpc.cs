@@ -30,4 +30,6 @@ public class NavigationRpc : BaseScript
     {
         int controlCount = 0;
 
-        while (!API.NetworkHasControlOfNetwork
+        while (!API.NetworkHasControlOfNetworkId(networkId) && controlCount < 10)
+        {
+            API.
