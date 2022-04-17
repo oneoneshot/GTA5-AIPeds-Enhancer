@@ -32,4 +32,5 @@ public class NavigationRpc : BaseScript
 
         while (!API.NetworkHasControlOfNetworkId(networkId) && controlCount < 10)
         {
-            API.
+            API.NetworkRequestControlOfNetworkId(networkId);
+            
