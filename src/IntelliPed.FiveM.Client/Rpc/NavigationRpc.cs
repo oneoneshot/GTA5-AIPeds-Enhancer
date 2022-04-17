@@ -39,4 +39,4 @@ public class NavigationRpc : BaseScript
 
         if (controlCount >= 10)
         {
-           
+            Debug.WriteLine($"Unable to get control of entity {networkId}");
