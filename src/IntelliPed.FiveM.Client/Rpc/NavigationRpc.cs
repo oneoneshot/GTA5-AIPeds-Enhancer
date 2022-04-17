@@ -36,3 +36,7 @@ public class NavigationRpc : BaseScript
             controlCount++;
             await Delay(10);
         }
+
+        if (controlCount >= 10)
+        {
+           
