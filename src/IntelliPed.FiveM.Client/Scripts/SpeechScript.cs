@@ -28,3 +28,37 @@ public class Speech : BaseScript
                 speechData.PedTextDraw.Draw();
             }
         }
+
+        return Task.FromResult(0);
+    }
+
+    [EventHandler("Speech")]
+    public void OnSpeech(int pedNetworkId, string message)
+    {
+        Debug.WriteLine($"Received speech: {message}");
+
+        _speechData.RemoveAll(_ => _.Ped.NetworkId == pedNetworkId);
+
+        Ped ped = (Ped)Entity.FromNetworkId(pedNetworkId);
+        PedTextDraw textDraw = new(ped, message, Color.White);
+        SpeechData speechData = new(ped, textDraw, 5000);
+
+        _speechData.Add(speechData);
+    }
+
+    private record SpeechData
+    {
+        public Ped Ped { get; }
+        public PedTextDraw PedTextDraw { get; }
+        public int TimeStarted { get; }
+        public int DurationMs { get; }
+
+        public SpeechData(Ped ped, PedTextDraw pedTextDraw, int durationMs)
+        {
+            Ped = ped;
+            PedTextDraw = pedTextDraw;
+            DurationMs = durationMs;
+            TimeStarted = Game.GameTime;
+        }
+    }
+}
