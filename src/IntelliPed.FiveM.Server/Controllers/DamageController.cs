@@ -1,4 +1,5 @@
 ﻿using System;
 using CitizenFX.Core;
 using IntelliPed.FiveM.Server.Hubs;
-usin
+using IntelliPed.Messages.Signals;
+using Microsoft.AspNetCore.SignalR
