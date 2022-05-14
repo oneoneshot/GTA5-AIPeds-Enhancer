@@ -5,4 +5,6 @@ using IntelliPed.Messages.Signals;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.DependencyInjection;
 
-names
+namespace IntelliPed.FiveM.Server.Controllers;
+
+public c
