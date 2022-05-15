@@ -7,4 +7,6 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace IntelliPed.FiveM.Server.Controllers;
 
-public c
+public class DamageController : BaseScript
+{
+    [EventHandle
