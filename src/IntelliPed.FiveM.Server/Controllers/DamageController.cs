@@ -10,4 +10,4 @@ namespace IntelliPed.FiveM.Server.Controllers;
 public class DamageController : BaseScript
 {
     [EventHandler("PedDamaged")]
-    private async void OnPedDamaged([
+    private async void OnPedDamaged([FromSource] Player player, int pedNetworkId, int previousHealth, i
