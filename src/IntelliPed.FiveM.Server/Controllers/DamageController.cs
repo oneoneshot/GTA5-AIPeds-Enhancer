@@ -14,4 +14,4 @@ public class DamageController : BaseScript
     {
         try
         {
-     
+            IHubContext<AgentHub> agentHub = Program
