@@ -14,4 +14,6 @@ public class DamageController : BaseScript
     {
         try
         {
-            IHubContext<AgentHub> agentHub = Program
+            IHubContext<AgentHub> agentHub = Program.ScopedServices.GetRequiredService<IHubContext<AgentHub>>();
+
+        
