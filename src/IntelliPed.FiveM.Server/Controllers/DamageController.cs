@@ -18,4 +18,5 @@ public class DamageController : BaseScript
 
             Debug.WriteLine($"Player {player.Handle} detected damaged ped {pedNetworkId} by {previousHealth - currentHealth}!");
 
-            await 
+            await agentHub.Clients
+                .Group(pedNetworkId.ToStrin
