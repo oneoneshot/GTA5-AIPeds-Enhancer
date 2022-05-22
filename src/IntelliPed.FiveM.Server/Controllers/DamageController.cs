@@ -16,4 +16,6 @@ public class DamageController : BaseScript
         {
             IHubContext<AgentHub> agentHub = Program.ScopedServices.GetRequiredService<IHubContext<AgentHub>>();
 
-            Debug.WriteLine($"Player {player.Handle} detected damaged ped {ped
+            Debug.WriteLine($"Player {player.Handle} detected damaged ped {pedNetworkId} by {previousHealth - currentHealth}!");
+
+            await 
