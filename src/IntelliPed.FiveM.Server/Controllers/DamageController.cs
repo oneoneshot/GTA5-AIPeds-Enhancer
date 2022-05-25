@@ -20,4 +20,6 @@ public class DamageController : BaseScript
 
             await agentHub.Clients
                 .Group(pedNetworkId.ToString())
-                .SendAsync("DamageReceived", new DamageS
+                .SendAsync("DamageReceived", new DamageSignal
+                {
+                    
