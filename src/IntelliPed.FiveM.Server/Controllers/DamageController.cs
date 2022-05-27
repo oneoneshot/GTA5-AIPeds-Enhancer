@@ -22,4 +22,5 @@ public class DamageController : BaseScript
                 .Group(pedNetworkId.ToString())
                 .SendAsync("DamageReceived", new DamageSignal
                 {
-                    
+                    DamageAmount = previousHealth - currentHealth,
+   
