@@ -23,4 +23,5 @@ public class DamageController : BaseScript
                 .SendAsync("DamageReceived", new DamageSignal
                 {
                     DamageAmount = previousHealth - currentHealth,
-   
+                    Source = player.Handle,
+           
