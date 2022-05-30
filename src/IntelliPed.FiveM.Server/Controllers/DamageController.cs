@@ -26,4 +26,7 @@ public class DamageController : BaseScript
                     Source = player.Handle,
                     Weapon = "Unknown",
                 });
- 
+        }
+        catch (Exception exception)
+        {
+            Debug.Wr
