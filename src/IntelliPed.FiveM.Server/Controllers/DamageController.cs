@@ -24,4 +24,6 @@ public class DamageController : BaseScript
                 {
                     DamageAmount = previousHealth - currentHealth,
                     Source = player.Handle,
-           
+                    Weapon = "Unknown",
+                });
+ 
