@@ -29,4 +29,7 @@ public class DamageController : BaseScript
         }
         catch (Exception exception)
         {
-            Debug.WriteLine($"Error sending ped damage received event to agent:
+            Debug.WriteLine($"Error sending ped damage received event to agent: {exception.Message}");
+        }
+    }
+}
