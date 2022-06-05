@@ -1,1 +1,4 @@
-﻿<Project Sdk="Mic
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Target
