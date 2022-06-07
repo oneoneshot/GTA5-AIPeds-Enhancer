@@ -2,4 +2,5 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Lang
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nul
