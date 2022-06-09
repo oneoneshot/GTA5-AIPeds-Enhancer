@@ -6,4 +6,5 @@
     <Nullable>enable</Nullable>
     <DebugType>portable</DebugType>
     <TargetName>$(AssemblyName).net</TargetName>
-   
+    <DefineConstants>SERVER</DefineConstants>
+    <CopyLoc
