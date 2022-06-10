@@ -7,4 +7,5 @@
     <DebugType>portable</DebugType>
     <TargetName>$(AssemblyName).net</TargetName>
     <DefineConstants>SERVER</DefineConstants>
-    <CopyLoc
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AppendT
