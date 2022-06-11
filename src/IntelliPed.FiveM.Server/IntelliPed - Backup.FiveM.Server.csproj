@@ -8,4 +8,5 @@
     <TargetName>$(AssemblyName).net</TargetName>
     <DefineConstants>SERVER</DefineConstants>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    <AppendT
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGr
