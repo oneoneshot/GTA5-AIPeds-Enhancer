@@ -9,4 +9,7 @@
     <DefineConstants>SERVER</DefineConstants>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-  </PropertyGr
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CitizenFX.C
