@@ -12,4 +12,5 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CitizenFX.C
+    <PackageReference Include="CitizenFX.Core.Server" Version="1.0.8202" />
+    <PackageRefe
