@@ -14,4 +14,5 @@
   <ItemGroup>
     <PackageReference Include="CitizenFX.Core.Server" Version="1.0.8202" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
-    <PackageReference Include="Microsoft.AspNetCore.Mv
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsof
