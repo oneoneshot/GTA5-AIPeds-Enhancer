@@ -21,4 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="NewFol
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+  <PropertyGroup Condition="'$(Co
