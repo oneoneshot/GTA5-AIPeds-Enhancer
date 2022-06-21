@@ -24,4 +24,5 @@
     <Folder Include="NewFolder\" />
   </ItemGroup>
 
-  <PropertyGroup Condition="'$(Co
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>.
