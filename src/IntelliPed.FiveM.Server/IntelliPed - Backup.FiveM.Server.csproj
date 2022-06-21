@@ -25,4 +25,4 @@
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-		<OutputPath>.
+		<OutputPath>..\..\fivem\cfx-server-data\resources\intelliped\server\</
