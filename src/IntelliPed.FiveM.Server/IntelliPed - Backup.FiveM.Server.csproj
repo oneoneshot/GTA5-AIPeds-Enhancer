@@ -25,4 +25,7 @@
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-		<OutputPath>..\..\fivem\cfx-server-data\resources\intelliped\server\</
+		<OutputPath>..\..\fivem\cfx-server-data\resources\intelliped\server\</OutputPath>
+	</PropertyGroup>
+
+	<Target Name="PostBuild" After
