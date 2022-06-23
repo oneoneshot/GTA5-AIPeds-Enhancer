@@ -28,4 +28,5 @@
 		<OutputPath>..\..\fivem\cfx-server-data\resources\intelliped\server\</OutputPath>
 	</PropertyGroup>
 
-	<Target Name="PostBuild" After
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="xcopy &quot;$(ProjectDir)
