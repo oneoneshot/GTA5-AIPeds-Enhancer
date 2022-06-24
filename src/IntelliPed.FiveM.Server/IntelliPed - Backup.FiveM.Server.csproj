@@ -29,4 +29,4 @@
 	</PropertyGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="xcopy &quot;$(ProjectDir)
+		<Exec Command="xcopy &quot;$(ProjectDir)fxmanifest.lua&quot; &quot;$(OutDir)..\&quot; /Y" 
