@@ -35,3 +35,13 @@
       <HintPath>..\..\..\FxMediator\src\FxMediator.Shared\bin\Debug\FxMediator.Shared.dll</HintPath>
     </Reference>
   </ItemGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>..\..\fivem\cfx-server-data\resources\intelliped\server\</OutputPath>
+	</PropertyGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="xcopy &quot;$(ProjectDir)fxmanifest.lua&quot; &quot;$(OutDir)..\&quot; /Y" />
+	</Target>
+
+</Project>
