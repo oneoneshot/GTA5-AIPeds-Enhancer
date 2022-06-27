@@ -60,3 +60,11 @@ public class Program : BaseScript
     [EventHandler("onResourceStop")]
     private async void OnResourceStop(string resourceName)
     {
+        if (API.GetCurrentResourceName() != resourceName)
+        {
+            return;
+        }
+        
+        await _host.StopAsync();
+    }
+}
