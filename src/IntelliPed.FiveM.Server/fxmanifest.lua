@@ -6,4 +6,7 @@ files {
 }
 
 client_script 'client/*.net.dll'
-serv
+server_script 'server/*.net.dll'
+
+author 'mickmelon'
+version '1.0.
