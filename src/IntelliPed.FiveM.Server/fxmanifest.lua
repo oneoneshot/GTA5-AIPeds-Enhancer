@@ -1,4 +1,9 @@
 fx_version 'bodacious'
 game 'gta5'
 
-file
+files {
+	'client/*.dll'
+}
+
+client_script 'client/*.net.dll'
+serv
