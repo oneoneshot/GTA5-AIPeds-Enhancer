@@ -9,4 +9,5 @@ client_script 'client/*.net.dll'
 server_script 'server/*.net.dll'
 
 author 'mickmelon'
-version '1.0.
+version '1.0.0'
+description 'IntelliPed'
