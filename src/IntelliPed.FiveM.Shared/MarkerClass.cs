@@ -35,3 +35,18 @@ namespace System.Runtime.CompilerServices
 
         public string FeatureName { get; }
         public bool IsOptional { get; init; }
+
+        public const string RefStructs = nameof(RefStructs);
+        public const string RequiredMembers = nameof(RequiredMembers);
+    }
+
+#endif // !NET7_0_OR_GREATER
+}
+
+namespace System.Diagnostics.CodeAnalysis
+{
+#if !NET7_0_OR_GREATER
+    [AttributeUsage(AttributeTargets.Constructor, AllowMultiple = false, Inherited = false)]
+    internal sealed class SetsRequiredMembersAttribute : Attribute { }
+#endif
+}
