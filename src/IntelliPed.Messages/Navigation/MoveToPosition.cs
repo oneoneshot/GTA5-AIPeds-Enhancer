@@ -1,3 +1,5 @@
 ﻿namespace IntelliPed.Messages.Navigation;
 
-public record MoveToPo
+public record MoveToPositionRequest
+{
+    public required float X { get; init;
