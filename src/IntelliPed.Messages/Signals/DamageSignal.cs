@@ -1,3 +1,5 @@
 ﻿namespace IntelliPed.Messages.Signals;
 
-public r
+public record DamageSignal : Signal
+{
+    public required int DamageA
