@@ -4,3 +4,6 @@ public record DamageSignal : Signal
 {
     public required int DamageAmount { get; init; }
     public required string Source { get; init; }
+    public required string Weapon { get; init; }
+
+    
