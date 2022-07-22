@@ -8,4 +8,6 @@ public record DamageSignal : Signal
 
     public override string ToString()
     {
-        return $"You have received {DamageAmount} damage from {Source} using the we
+        return $"You have received {DamageAmount} damage from {Source} using the weapon {Weapon}";
+    }
+}
