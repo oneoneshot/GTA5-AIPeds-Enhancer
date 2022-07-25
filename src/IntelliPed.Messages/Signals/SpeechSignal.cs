@@ -6,4 +6,6 @@ public record SpeechSignal : Signal
 
     public override string ToString()
     {
-        return $"You heard 
+        return $"You heard someone say, \"{Message}\"";
+    }
+}
