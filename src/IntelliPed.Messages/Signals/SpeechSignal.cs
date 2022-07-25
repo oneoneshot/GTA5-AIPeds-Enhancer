@@ -4,4 +4,6 @@ public record SpeechSignal : Signal
 {
     public required string Message { get; init; }
 
-    public ove
+    public override string ToString()
+    {
+        return $"You heard 
