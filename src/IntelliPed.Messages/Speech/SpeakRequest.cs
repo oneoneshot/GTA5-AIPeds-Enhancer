@@ -2,4 +2,5 @@
 
 public record SpeakRequest
 {
-    public re
+    public required string Message { get; init; }
+}
