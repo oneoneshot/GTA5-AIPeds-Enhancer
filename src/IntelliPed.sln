@@ -5,4 +5,4 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPed.Core", "IntelliPed.Core\IntelliPed.Core.csproj", "{C8547D29-E7DD-4617-9FB8-DFFDEBC391CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPed.ConsoleApp", "IntelliPed.C
