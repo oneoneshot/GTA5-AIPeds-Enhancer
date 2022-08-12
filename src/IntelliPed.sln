@@ -7,4 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPed.Core", "IntelliP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPed.ConsoleApp", "IntelliPed.ConsoleApp\IntelliPed.ConsoleApp.csproj", "{F16E4B1E-8D56-4414-94D7-08695692A7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliPed.FiveM.Client", "IntelliPed.FiveM.Client\IntelliPed.FiveM.Client.csproj", "{A8318136-1CB5-4B6E-99F3-25420AD
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliPed.FiveM.Client", "IntelliPed.FiveM.Client\IntelliPed.FiveM.Client.csproj", "{A8318136-1CB5-4B6E-99F3-25420ADE1331}"
+EndProject
+Project("{9A19103F-16
