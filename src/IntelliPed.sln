@@ -16,4 +16,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliPed.FiveM.Shared", "IntelliPed.FiveM.Shared\IntelliPed.FiveM.Shared.csproj", "{25E9A728-BA59-4DC7-AD4A-2D4BA154EE22}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) 
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|
