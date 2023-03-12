@@ -30,3 +30,47 @@ Work has started to switch over to [Semantic Kernel](https://learn.microsoft.com
 # Getting started
 
 ⚠️**Token usage isn't currently limited or measured**, proceed with caution!
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/oneoneshot/GTA5-AIPeds-Enhancer.git
+```
+
+2. Go to the `IntelliPed.ConsoleApp` project folder:
+
+```bash
+cd src/IntelliPed.ConsoleApp
+```
+
+3. Run the following command to set your OpenAI API keys to your dotnet user secrets:
+
+```bash
+dotnet user-secrets set "OpenAi:ApiKey" "{your api key}"
+dotnet user-secrets set "OpenAi:OrgId" "{your org id}"
+```
+
+4. Build the solution using this command:
+
+```bash
+dotnet build
+```
+
+5. Run GTA5-AIPeds-Enhancer by executing this command:
+
+```bash
+dotnet run
+```
+
+# Contribute
+
+We welcome contributions that can help improve GTA5-AIPeds-Enhancer. To contribute:
+
+1. Fork the repository.
+2. Start a new branch for your bugfix or feature.
+3. Commit the changes to your branch.
+4. Submit a pull request, explaining the changes you made and why you made them.
+
+# License
+
+GTA5-AIPeds-Enhancer is released under the [GNU GPLv3 License](LICENCE.md).
